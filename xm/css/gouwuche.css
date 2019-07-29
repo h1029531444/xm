@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.tou {
+    width: 990px;
+    height: 44px;
+    background: #f3f3f3;
+    font-size: 12px;
+    color: #666666;
+    line-height: 44px;
+    margin: 0 auto;
+
+}
+
+.tou input {
+    float: left;
+    margin-top: 16px;
+    margin-left: 12px;
+
+}
+
+.tou li {
+    float: left;
+}
+
+.tou>li:nth-child(7) {
+    float: right;
+    margin-right: 74px;
+}
+
+.tou>li:nth-child(2) {
+    margin-left: 8px;
+}
+
+.tou>li:nth-child(3) {
+    margin-left: 80px;
+}
+
+.tou>li:nth-child(4) {
+    margin-left: 450px;
+}
+
+.tou>li:nth-child(5) {
+    margin-left: 68px;
+}
+
+.tou>li:nth-child(6) {
+    margin-left: 104px;
+}
+
+.tou2 {
+    height: 40px;
+    width: 990px;
+    margin: 0 auto;
+}
+
+.xia {
+    height: 52px;
+    width: 990px;
+    margin: 0 auto;
+    line-height: 52px;
+    border: 1px solid #eee;
+    margin-top: 18px;
+    font-size: 12px;
+}
+
+.xia a {
+    color: #000;
+}
+
+.xia input {
+    margin-left: 10px;
+    float: left;
+    margin-top: 20px;
+}
+
+.xia li {
+    margin-left: 10px;
+    float: left;
+}
+
+.xia li:nth-child(5) {
+    font-weight: bold;
+}
+
+.xia li a:hover {
+    color: red;
+}
+
+.jiezhang {
+    float: right;
+    line-height: 32px;
+}
+
+.jiezhang div {
+    float: left;
+}
+
+.jiezhang div a {
+    color: #666666;
+}
+
+.jiezhang div:nth-child(1) span {
+    color: red;
+}
+
+.jiezhang div:nth-child(2) {
+    margin-left: 12px;
+}
+
+.jiezhang div:nth-child(2) i {
+    font-style: normal;
+    color: #666666;
+    margin-left: 10px;
+}
+
+.jiezhang div:nth-child(2) span {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.jiezhang div:nth-child(2) P {
+    color: #666666;
+    line-height: 0;
+}
+
+.jiezhang div:nth-child(2) b {
+    font-weight: normal;
+    color: #000;
+}
+
+.jiezhang div:nth-child(3) {
+    font-size: 18px;
+    margin-left: 24px;
+}
+
+.jiezhang div:nth-child(3) input {
+    width: 94px;
+    height: 50px;
+    background: #e64347;
+    margin-top: 0;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+}
+
+.zhong4 i {
+    font-style: normal;
+}
+
+.zhong2 b {
+    font-weight: normal;
+}
+
+.xiaoshi {
+    display: none;
+}
+
+.zhong {
+    min-height: 120px;
+    height: auto !important;
+    height: 120px;
+    width: 990px;
+    border: 1px solid #eee;
+    margin: 0 auto;
+    box-shadow: 0 1px 0 1px #eee inset;
+    padding-top: 18px;
+    padding-left: 9px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.zhong input {
+    float: left;
+    margin-top: 6px;
+}
+
+.zhong .pp {
+    width: 206px;
+    font-size: 12px;
+    float: left;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+.zhong .pp a {
+    color: #333333;
+}
+
+.zhong .pp a:hover {
+    color: red;
+}
+
+.w_img {
+    height: 82px;
+    width: 82px;
+    border: 1px solid #eeeeee;
+    float: left;
+    margin-left: 18px;
+}
+
+.banben {
+    margin-left: 28px;
+    float: left;
+    line-height: 20px;
+    width: 198px;
+    color: #666666;
+}
+
+.zhong2 {
+    float: left;
+}
+
+.zhong2 span {
+    line-height: 20px;
+    margin-left: 24px;
+}
+
+.zhong2 span a {
+    color: #333333;
+}
+
+.zhong2 i {
+    font-style: normal;
+    display: block;
+    width: 82px;
+    height: 18px;
+    border: 1px solid #f9d2d3;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.zhong2 i a {
+    color: red;
+}
+
+.zhong3 {
+    float: left;
+    margin-left: 40px;
+}
+
+.zhong3 button {
+    float: left;
+    width: 18px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.zhong3 input {
+    float: left;
+    margin-top: 0;
+    width: 44px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+}
+
+.zhong3 p {
+    color: #b1b1c7;
+    text-align: center;
+    line-height: 24px;
+}
+
+.zhong4 {
+    float: left;
+    margin-left: 36px;
+}
+
+.zhong4 span {
+    font-weight: bold;
+}
+
+.zhong5 {
+    float: left;
+    margin-left: 32px;
+}
+
+.zhong5 a {
+    color: #666666;
+}
+
+.zhong5 a:hover {
+    color: red;
+}
+
+.zhong .zhong2 .cx {
+    width: 48px;
+    margin-left: 32px;
+}
+
+.kuan {
+    height: 82px;
+}

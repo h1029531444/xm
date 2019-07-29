@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/gouwuche.css">
+</head>
+<script src="jq/jquery-3.3.1.js"></script>
+
+<body>
+    <div class="tou"><input type="checkbox" id="all">
+        <li>全选</li>
+        <li>商品</li>
+        <li>单价</li>
+        <li>数量</li>
+        <li>小计</li>
+        <li>操作</li>
+    </div>
+    <div class="tou2"></div>
+    <div id="list">
+        <!-- <div class="zhong">
+            <div class="kuan">
+                <input type="checkbox">
+                <div class="w_img">
+                    <img src='' alt="">
+                </div>
+                <p class="pp"><a href="#">'+ grounds[i].title+'</a></p>
+                <p class="banben">'+ grounds[i].ye+'<br>'+ grounds[i].dx+'</p>
+                <div class="zhong2">
+                    <span><a href="#">￥<b class="ppp">'+ grounds[i].q+'</b></a></span>
+                    <i><a href="#">白条12期免息</a></i>
+                </div>
+                <div class="zhong3">
+                    <button class="jian">-</button>
+                    <input type="text" value="1" class="sz">
+                    <button class="jia">+</button>
+                    <p>有货</p>
+                </div>
+                <div class="zhong4">
+                    <span>￥<b>'+ grounds[i].zqs+'</b></span>
+                </div>
+                <div class="zhong5">
+                    <span><a href="#">删除</a></span>
+                    <p><a href="#">移到我的关注</a></p>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <div class="xia">
+        <input type="checkbox" id="bll">
+        <li>全选</li>
+        <li><a href="#">删除选中的商品</a></li>
+        <li><a href="#">移到我的关注</a></li>
+        <li><a href="#">清理购物车</a></li>
+        <div class="jiezhang">
+            <div><a href="#">
+                    已选择<span id="xz">0</span>件商品 ^
+                </a></div>
+            <div>
+                <i>总价：<span id="zj">￥0.00</span></i>
+                <p>已节省：<b>- ￥0.00</b></p>
+            </div>
+            <div><input type="submit" value="去结算" id="suanzhang"></div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="js/gouwuche.js"></script>

@@ -1,0 +1,14 @@
+$(function(){
+    $(".vx").mouseenter(function(){
+        $(".none").css("display","block");
+    });
+    $(".vb").mouseenter(function(){
+        $(".bno").css("display","block");
+    });
+    $(".vx").mouseleave(function(){
+        $(".none").css("display","none");
+    });
+    $(".vb").mouseleave(function(){
+        $(".bno").css("display","none");
+    });
+})

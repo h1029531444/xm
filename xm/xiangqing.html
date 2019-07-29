@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ys.css">
+    <link rel="stylesheet" href="css/xiangqing.css">
+</head>
+<script src="jq/jquery-3.3.1.js"></script>
+
+<body>
+    <div class="top">
+        <div class="n_top">
+            <span class="f1">您好~欢迎您来到鸿星尔克官方商城！</span>
+            <ul class="top_ul">
+                <li><a href="login.html" id="dl">[请登录]</a></li>
+                <li><a href="register.html">[免费注册]</a></li>
+                <li><a href="##">我的鸿星尔克</a></li>
+                <li><a href="gouwuche.html">我的购物车(<em id="gw">0</em>)</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="header">
+        <div class="n_top">
+            <div class="f1"><img src="images/logo1.png"></div>
+            <div class="w_from">
+                <label>搜索：</label>
+                <div>
+                    <input type="text" placeholder="跑步鞋" class="s_text">
+                </div>
+                <input type="button" class="ss">
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="n_nav">
+            <div class="z_nav">
+                <div class="zn_nav gb">
+                    <a href="#">所有产品分类</a>
+                </div>
+                <div class="r_nav">
+                    <ul>
+                        <li class="none">
+                            <div class="nn_none">
+                                <strong>
+                                    <a href="#">新品上市</a>
+                                </strong>
+                            </div>
+                        </li>
+                        <li class="none">
+                            <div class="nn_none">
+                                <strong>
+                                    <a href="#">男鞋</a>
+                                </strong>
+                            </div>
+                            <div class="n_li">
+                                <a href="##">跑步鞋</a>
+                                <a href="#">篮球鞋</a>
+                                <a href="#">滑板鞋</a>
+                                <a href="#">休闲鞋</a>
+                                <a href="#">综训鞋</a>
+                                <a href="#">户外鞋</a>
+                                <a href="#">网球鞋</a>
+                            </div>
+                        </li>
+                        <li class="none">
+                            <div class="nn_none">
+                                <strong>
+                                    <a href="#">女鞋</a>
+                                </strong>
+                            </div>
+                            <div class="n_li">
+                                <a href="#">跑步鞋</a>
+                                <a href="#">滑板鞋</a>
+                                <a href="#">休闲鞋</a>
+                                <a href="#">综训鞋</a>
+                                <a href="#">网球鞋</a>
+                            </div>
+                        </li>
+                        <li class="none">
+                            <div class="nn_none">
+                                <strong>
+                                    <a href="#">男装</a>
+                                </strong>
+                            </div>
+                            <div class="n_li">
+                                <a href="#">T恤/短裤</a>
+                                <a href="#">运动套装</a>
+                                <a href="#">运动外套</a>
+                                <a href="#">卫衣/长T</a>
+                                <a href="#">运动长裤</a>
+                            </div>
+                        </li>
+                        <li class="none">
+                            <div class="nn_none">
+                                <strong>
+                                    <a href="#">女装</a>
+                                </strong>
+                            </div>
+                            <div class="n_li">
+                                <a href="#">T恤/短裤</a>
+                                <a href="#">运动套装</a>
+                                <a href="#">运动外套</a>
+                                <a href="#">卫衣/长T</a>
+                                <a href="#">运动长裤</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="y_nav">
+                <ul class="yn_nav">
+                    <li><a href="sp.html">首页</a></li>
+                    <li><a href="pux.html">跑步馆</a></li>
+                    <li><a href="#">篮球馆</a></li>
+                    <li><a href="#">休闲馆</a></li>
+                    <li><a href="#">网球馆</a></li>
+                    <li><a href="#">户外馆</a></li>
+                    <li><a href="#">服饰馆</a></li>
+                    <li><a href="#">儿童馆</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div id="zongti">
+            <!-- <div class="zuo">
+                <div class="datu" id="ddt">
+                    <div id="fangda"></div><img src="">
+                </div>
+                <div class="xiaotu">
+                    <img data-src="" src="">;
+                    <img data-src="" src="">;
+                    <img data-src="" src="">;
+                    <img data-src="" src="">;
+                    <img data-src="" src="">;
+                </div>
+            </div>
+            <div class="you">
+                <p class="tit"><span>门店有售</span></p>
+                <p class="cx"></p>
+                <div class="y1">
+                    <div class="z_y1">
+                        <p>京 东 价</p>
+                        <span>￥<b>' + grounds[i].price +'</b></span>
+                        <i><a href="#">降价通知</a></i>
+                    </div>
+                    <div class="y_y2">
+                        <div class="s_q">
+                            <span>累计评价</span>
+                            <p><a href="#">' + grounds[i].title1 +'</a></p>
+                        </div>
+                        <div class="x_q">
+                            <span>累计售出</span>
+                            <p><a href="#">' + grounds[i].title1 +'</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="y2">
+                    <div>增值业务</div>
+                    <div>健康保障无忧</div>
+                    <div>送运费险</div>
+                </div>
+                <div class="y3">
+                    <div>配 送 至<span>北京朝阳区三环以内</span></div><span>有货</span>
+                </div>
+                <p>由 <a href="#">京东</a> 发货, 并提供售后服务. 23:00前下单,预计<span>明天(04月14日)</span>送达</p>
+                <p>重&nbsp;&nbsp;量<span>' +
+                        grounds[i].zl + 'kg</span></p>
+                <div class="y4"><span>选择颜色</span>
+                    <li><a href="##">红色</a></li>
+                    <li><a href="##">蓝色</a></li>
+                    <li><a href="##">白色</a></li>
+                    <li><a href="##">绿色</a></li>
+                </div>
+                <div class="y5"><span>尺码</span>
+                    <li><a href="#">24</a></li>
+                    <li><a href="#">25</a></li>
+                    <li><a href="#">26</a></li>
+                    <li><a href="#">30</a></li>
+                    <li><a href="#">34</a></li>
+                </div>
+                <div class="y10">
+                    <div class="ny"><input type="text" value="1" id="wenben">
+                        <div><button id="jia">+</button><button id="jian">-</button></div>
+                    </div><input type="submit" value="加入购物车" id="jrgw">
+                </div>
+                <div class="y11"><span>温馨提示</span><span>·支持7天无理由退货</span><span>·此商品不可使用京卷东卷</span></div>
+            </div>
+            <div class="weibu" id="ddj"><img src=' +grounds[i].d1.dd +' id="dddd"></div> -->
+        </div>
+    </header>
+    <div class="footer">
+        <div class="s_footer">
+            <div class="w_sfo">
+                <div class="n_sfo">
+                    <dl>
+                        <dt><span>用户指南</span></dt>
+                        <dd><a href="#">新用户注册</a></dd>
+                        <dd><a href="#">积分政策</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><span>配送服务</span></dt>
+                        <dd><a href="#">配送费用</a></dd>
+                        <dd><a href="#">快递查询</a></dd>
+                        <dd><a href="#">配送方式</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><span>购物服务</span></dt>
+                        <dd><a href="#">发票制度</a></dd>
+                        <dd><a href="#">支付方式</a></dd>
+                        <dd><a href="#">尺码对照表</a></dd>
+                        <dd><a href="#">购物流程</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><span>售后服务</span></dt>
+                        <dd><a href="#">退换货政策</a></dd>
+                        <dd><a href="#">退换货流程</a></dd>
+                        <dd><a href="#">防伪查询</a></dd>
+                        <dd><a href="#">订单查询</a></dd>
+                    </dl>
+                    <dl>
+                        <dt><span>联系我们</span></dt>
+                        <dd><a href="#">企业团购</a></dd>
+                        <dd><a href="#">公司简介</a></dd>
+                    </dl>
+                    <dl class="mid">
+                        <dt><span>手机扫码</span></dt>
+                        <dd><a href="#" class="join"><img src="images/rwm.png"></a></dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="x_footer">
+            <a href="#"><img src="images/duo.png"></a>
+            <a href="#"><img src="images/kuai.png"></a>
+            <a href="#"><img src="images/hao.png"></a>
+            <a href="#"><img src="images/sheng.png"></a>
+            <a href="#"><img src="images/tui.png"></a>
+        </div>
+        <p class="Copyright">Copyright © 2016 福建鸿星尔克体育用品有限公司 版权所有 保留一切权利 闽ICP备16030405号-1</p>
+    </div>
+</body>
+
+</html>
+<script src="js/xiangqing.js"></script>
+<script src="js/register.js"></script>
